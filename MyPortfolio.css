@@ -899,6 +899,47 @@ section{
         padding: 2vw;
     }
 }
+@media (max-width: 768px) {
+
+    /* About section responsive */
+    .about {
+        display: flex;
+        flex-direction: column;  /* Stack the image and text vertically */
+        padding: 5vh 5vw;
+        gap: 3vh;
+        align-items: center;     /* Center content horizontally */
+    }
+
+    .about-img {
+        width: 60vw;            /* Make image responsive */
+        height: auto;
+        border-radius: 50%;     /* Keep round shape */
+        margin-bottom: 3vh;     /* Space below image */
+    }
+
+    .about-text {
+        width: 90vw;            /* Full width text */
+        text-align: center;     /* Center align text */
+    }
+
+    .about-text h2 {
+        font-size: 8vw;
+    }
+
+    .about-text h2 span {
+        font-size: 8vw;
+    }
+
+    .about-text h4 {
+        font-size: 4vw;
+    }
+
+    .about-text p {
+        font-size: 3.5vw;
+        line-height: 1.5;
+    }
+}
+
 
 
 

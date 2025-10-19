@@ -687,8 +687,65 @@ section{
         margin-bottom: 1vh;
         display: block;
     }
+    @media (max-width: 768px) {
+
+    /* Home Section Responsive */
+    .home {
+        flex-direction: column;      /* Stack content vertically */
+        justify-content: center;     /* Center content */
+        align-items: center;
+        padding: 5vh 5vw;
+        height: auto;                /* Let height adjust to content */
+    }
+
+    .home-content {
+        max-width: 90vw;             /* Responsive width */
+        text-align: center;          /* Center text */
+        margin-bottom: 3vh;
+    }
+
+    .home-content h1 {
+        font-size: 8vw;
+    }
+
+    .home-content h3 {
+        font-size: 6vw;
+    }
+
+    .home-content p {
+        font-size: 3.5vw;
+    }
+
+    .portfolio_image {
+        width: 40vw;
+        height: 40vw;
+        margin: 3vh 0 0 0;           /* Remove left margin */
+    }
+
+    .home-sci {
+        margin-top: 3vh;
+        justify-content: center;
+        flex-wrap: wrap;             /* Wrap icons on smaller screens */
+    }
+
+    .home-sci a {
+        width: 10vw;
+        height: 10vw;
+        font-size: 5vw;
+        margin: 1.5vh;
+    }
+
+    .btn_box {
+        font-size: 3vw;
+        padding: 2vw 4vw;
+        display: block;
+        margin: 3vh auto;
+    }
+}
+
 
     /* Home section */
+    
     .home {
         flex-direction: column;
         padding: 5vh 5vw;
@@ -899,46 +956,7 @@ section{
         padding: 2vw;
     }
 }
-@media (max-width: 768px) {
 
-    /* About section responsive */
-    .about {
-        display: flex;
-        flex-direction: column;  /* Stack the image and text vertically */
-        padding: 5vh 5vw;
-        gap: 3vh;
-        align-items: center;     /* Center content horizontally */
-    }
-
-    .about-img {
-        width: 60vw;            /* Make image responsive */
-        height: auto;
-        border-radius: 50%;     /* Keep round shape */
-        margin-bottom: 3vh;     /* Space below image */
-    }
-
-    .about-text {
-        width: 90vw;            /* Full width text */
-        text-align: center;     /* Center align text */
-    }
-
-    .about-text h2 {
-        font-size: 8vw;
-    }
-
-    .about-text h2 span {
-        font-size: 8vw;
-    }
-
-    .about-text h4 {
-        font-size: 4vw;
-    }
-
-    .about-text p {
-        font-size: 3.5vw;
-        line-height: 1.5;
-    }
-}
 
 
 
